@@ -1,0 +1,52 @@
+body{
+    background-color: azure;
+    margin: 0;
+}
+
+header {
+    background-color: #588C94;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    padding: 5px 0;
+}
+
+.column1 {
+    text-align: center;
+    margin: 40px;
+}
+
+.column2 {
+    text-align: center;
+    margin: 40px;
+}
+
+.warning {
+    text-align: right; 
+}
+
+#draw {
+    background: goldenrod;
+    size: 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    padding: 10px;
+    font-weight: bold;
+    width: 150px;
+}
+
+#hold {
+    background: goldenrod;
+    size: 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    padding: 10px;
+    font-weight: bold;
+    width: 150px;
+}
+
+h2 {
+    text-align: center;
+}

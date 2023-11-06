@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+
+        <div class="header-container">
+            <div class="header-flex">
+                <h1>Find your film</h1>
+                <h3>
+                    <a href="watchlist.html" class="watchlist">My Watchlist</a>
+                </h3>
+            </div>
+        </div>
+
+        
+        <form>
+            <div class="search-container">
+                <div class="search-wrapper">
+                    <input id="search" type="text" placeholder="Search for a movie">
+                    <i class="fa-solid fa-magnifying-glass" style="color: #9CA3AF;"></i>
+                </div>
+    
+                <div class="button-wrapper">
+                    <button type="submit" id="search-btn" class="search-btn">Search</button>
+                </div>  
+            </div>
+        </form>
+
+        <!-- Render movies in index.js file from API -->
+        <div id="movie-list" class="movie-list">
+            <div class="empty-state">
+                <img src="images/Icon.png">
+                <h3>Start exploring</h3>
+            </div>
+        </div>
+
+        <script type="module" src="index.js"></script>
+    </body>
+</html>

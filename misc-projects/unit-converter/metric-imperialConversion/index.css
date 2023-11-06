@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.topHalf {
+    text-align: center;
+    background: #6943FF;
+    color: white;
+    padding: 30px
+}
+
+h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 38px;
+}
+
+#numInput {
+    background: #6943FF;
+    text-align: center;
+    height: 50px;
+    border: 2px solid #B295FF;
+    width: 115px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 58px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding: 10px 0px;;
+    border-radius: 5px;
+}
+
+/* Remove input arrows on Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#convert-btn {
+    width: 117px;
+    height: 42px;
+    left: 217px;
+    top: 209px;
+    margin-top: 30px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    color: #3D3D3D;
+    border: none;
+}
+
+
+.bottomHalf {
+    background: #F4F4F4;
+    text-align: center;
+    padding: 20px;
+}
+
+.lvm {
+    background: #FFFFFF;
+    border: solid 1px #3D3D3D;
+    text-align: center;
+    width: 90%;
+    margin: 20px auto;
+    padding-top: 30px;
+    padding-bottom: 18px;
+    color: #5A537B;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+}
+
+#conversionText1 {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #353535;
+}
+
+#conversionText2 {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #353535;
+}
+
+#conversionText3 {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #353535;
+}

@@ -1,0 +1,48 @@
+/* Main styling */
+body {
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.main-blog {
+    background-image: url(/images/article-image-hero.png);
+    background-size: 100%;
+    color: #FFFFFF;
+    padding: 140px 20px 25px 20px;
+}
+
+.blog-post {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 40px;
+}
+
+.blog-image {
+    width: 100%;
+}
+
+footer {
+    text-align: center;
+}
+
+/* Typography */
+
+ .main-date,
+ .main-content {
+    font-size: 14px;
+ }
+
+ .main-blog
+ h1 {
+    font-weight: 700;
+    font-size: 64px;
+    margin-top: 0;
+    margin-bottom: 0;
+ }

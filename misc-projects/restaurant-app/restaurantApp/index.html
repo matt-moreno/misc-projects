@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <link rel="stylesheet" href="index.css">
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Smythe&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+
+        <header>
+            <div class="text-header">
+                <h1>Matt's diner</h1>
+                <h3 class="sub-text">The best burgers and pizza in town</h3>
+            </div>
+        </header>
+
+        <main>
+        <!-- This is where the menu items go -->
+        <div id="menu"></div>
+        </main>
+
+        <main>
+            <div id="payment-modal">
+                <form class="modal-inner">
+                    <h2>Enter your card details</h2>
+                    <div>
+                        <input type="text" 
+                        id="user-name" 
+                        name="username" 
+                        placeholder="Enter your name"
+                        required>
+                    </div>
+                    <div>
+                        <input type="number" 
+                        id="cc-number" 
+                        name="ccnumber" 
+                        placeholder="Enter your card number"
+                        required>
+                    </div>
+                    <div>
+                        <input type="number" 
+                        id="cvv-number" 
+                        name="cvvnumber" 
+                        placeholder="Enter CVV"
+                        required>
+                    </div>
+                    <button type="submit" value="submit" id="pay">Pay</button>
+                </form>
+            </div>
+        </main>
+
+        <footer>
+            <div id="order">
+                <h2>Your order</h2>
+                    <!-- This is where the selected items go -->
+                    <div id="ordered-items"></div>
+                    <!-- This is where the total amount of all items go -->
+                    <div id="total-amount"></div>
+                <button id="complete-order">Complete order</button>
+            </div>
+        </footer>
+
+	<script src="index.js" type="module"></script>
+    </body>
+</html>

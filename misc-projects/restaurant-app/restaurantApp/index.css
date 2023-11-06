@@ -1,0 +1,205 @@
+/* border: solid red 1px; */
+body {
+    margin: 0;
+    font-family: 'Smythe', cursive;
+}
+
+/* Top of the page */
+header {
+    background-image: url("images/restaurantApp.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.text-header {
+    margin: auto 45px;
+    width: auto;
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 0;
+}
+
+.sub-text {
+    margin-top: 0;
+    font-size: 22px;
+}
+
+/* Menu */
+
+.foodItems {
+    display: flex;
+    margin: auto 45px;
+    border-bottom: solid #D2D2D2 1px;
+}
+.emojis {
+    font-size: 80px;
+    opacity: 0.72;
+}
+
+.foodDescription {
+    padding-left: 30px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+/* Add icons */
+
+.iconContainer {
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 100%;
+    display: flex;
+    justify-content: right;
+}
+
+.addIcon {
+    font-size: 25px;
+    color: #3C3C3C;
+    border: 1.5px solid #DEDEDE;
+    border-radius: 100%;
+    padding: 15px;
+}
+
+.addIcon:hover {
+    cursor: pointer;
+    color: #DEDEDE;
+}
+
+/* Menu text */
+.itemName {
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+
+.itemIngredients {
+    font-size: 16px;
+    color: #8B8B8B;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.itemPrice {
+    font-size: 20px;
+    margin-top: 0;
+}
+
+/* pop up payment modal */
+#payment-modal {
+    display: none;
+    position: fixed;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    align-items: center;
+    justify-content: center;
+    height: 40%;
+    width: 80%;
+    box-shadow: 0px 0px 6px 2px #666;
+    background-color: #FFFFFF;
+    color: whitesmoke;
+}
+
+#payment-modal h2 {
+    color: black;
+}
+
+.modal-inner {
+    width: 90%;
+    text-align: center;
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #757575;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+#payment-modal button {
+    margin-top: 15px;
+    padding: 10px 0;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-size: 16px;
+    width: 95%;
+    color: #FFFFFF;
+    background: #16DB99;
+    border-radius: 5px;
+    border: none;
+}
+
+/* Bottom of the page */
+footer {
+    margin-left: 45px;
+    margin-right: 45px;
+    margin-bottom: 50px;
+}
+
+footer h2 {
+    text-align: center;
+    font-size: 28px;
+}
+
+/* List of ordered items */
+.orderedItems {
+    font-size: 28px;
+}
+
+.remove {
+    font-family: Verdana;
+    font-size: 12px;
+    color: #BBBBBB;
+    padding-left: 30px;
+}
+
+.remove:hover {
+    cursor: pointer;
+}
+
+.totalDue {
+    font-size: 20px;
+    display: inline;
+    float: right;
+}
+
+#total-amount {
+    border-top: 2px solid #393333;
+    padding-top: 10px;
+}
+
+#order {
+    display: none; /* Turns into flex */
+}
+
+
+/* Buttons */
+
+#complete-order {
+    margin-top: 50px;
+    padding: 20px 0;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-size: 16px;
+    width: 100%;
+    color: #FFFFFF;
+    background: #16DB99;
+    border-radius: 5px;
+    border: none;
+}
+
+#complete-order:hover {
+    cursor: pointer;
+}

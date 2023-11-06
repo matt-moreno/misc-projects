@@ -1,0 +1,68 @@
+body{
+    background-color: azure;
+    margin: 0;
+}
+
+header {
+    background-color: #588C94;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    padding: 5px 0;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+.bodyBorder {
+    text-align: center;
+}
+
+h2 {
+    font-size: 38px;
+}
+
+h3 {
+    font-size: 50px;
+    margin: 100px 0;
+}
+
+.counter {
+    background-color: #588C94;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0 30px;
+}
+
+.saveReset {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#saver {
+    margin: 40px;
+    background-color: #588C94;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.bottomPage {
+    text-align: center;
+    padding: 0 100px;
+    margin: 25px;
+}
+
+footer {
+    margin-bottom: 10px;
+}
