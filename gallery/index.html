@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Matt’s collection of original Scrimba frontend projects.">
+  <title>The Scrimba archive · Matt Moreno</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='9' fill='%231c292b'/%3E%3Cpath d='M10 12h20v5H10zm0 9h8v8h-8zm12 0h8v8h-8z' fill='%23ecb380'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="/styles.css">
+  <script type="module" src="/app.js"></script>
+</head>
+<body>
+  <div id="collection" class="layout">
+    <aside class="sidebar">
+      <a class="brand" href="#" aria-label="Scrimba archive home"><span class="brand-icon">m.</span><span>THE PERSONAL<br>PROJECT ARCHIVE</span></a>
+      <div class="sidebar-content">
+        <p class="eyebrow">COLLECTION 001</p>
+        <h1>The Scrimba <br>years<span>.</span></h1>
+        <p class="intro">Small projects.<br>First discoveries.<br>A lot of learning by doing.</p>
+        <nav id="filters" aria-label="Project categories"></nav>
+      </div>
+      <div class="sidebar-footer"><span class="archive-symbol" aria-hidden="true">{ }</span><p>Made along the way.<br><span>Matt Moreno · Frontend development</span></p></div>
+    </aside>
+    <main class="main">
+      <header class="collection-header"><div><p class="eyebrow">SCRIMBA / FRONTEND DEVELOPER PATH</p><h2>A look back at the builds.</h2><p>Open a project and pick up where you left off.</p></div><span class="archive-stamp">PERSONAL<br>ARCHIVE ↗</span></header>
+      <div class="collection-tools"><p id="result-count" aria-live="polite">Loading the collection…</p><label class="search"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="Find a project" aria-label="Find a project"></label></div>
+      <div id="projects" class="project-grid"></div>
+      <p id="empty" hidden>No projects match your search. Try another name or category.</p>
+      <footer class="main-footer"><span>A snapshot of the learning process.</span><span>9 projects · Original project files preserved</span></footer>
+    </main>
+  </div>
+  <section id="viewer" class="viewer" aria-label="Project viewer" hidden>
+    <header class="viewer-header">
+      <button id="back" class="back-button">← <span>All projects</span></button>
+      <div class="viewer-heading"><span id="viewer-category" class="eyebrow"></span><h2 id="viewer-title" tabindex="-1"></h2></div>
+      <a id="open-original" class="external-link" target="_blank" rel="noopener">Open in a new tab ↗</a>
+    </header>
+    <div class="viewer-tools"><label id="pages-label">Page <select id="pages" aria-label="Project page"></select></label><div class="size-controls" aria-label="Preview width"><button data-size="full" aria-pressed="true">Full width</button><button data-size="mobile" aria-pressed="false">Phone</button></div><button id="reload" class="reload">↻ Reload</button></div>
+    <p id="project-note" class="project-note" hidden></p>
+    <div class="frame-stage"><iframe id="project-frame" title="Selected project" sandbox="allow-scripts allow-same-origin allow-forms allow-popups allow-popups-to-escape-sandbox allow-downloads"></iframe></div>
+  </section>
+</body>
+</html>

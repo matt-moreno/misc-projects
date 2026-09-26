@@ -1,0 +1,8 @@
+{
+  "name": "scrimba-project-archive",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": { "start": "node scripts/serve.mjs", "check": "node --check scripts/serve.mjs && node --check gallery/app.js" },
+  "dependencies": { "esbuild": "0.25.10", "react": "18.2.0", "react-dom": "18.2.0" }
+}
